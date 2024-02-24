@@ -1,0 +1,169 @@
+body{
+    
+    background-color:#fafafa;
+}
+*{
+    margin: 0;
+}
+
+.head-one{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 0.5rem;
+}
+.currency{
+ display: flex;
+}
+.currency-right{
+    display: flex;
+    width:46rem;
+    justify-content:space-evenly ;
+}
+.flag{
+    margin-left: 1rem;
+    
+}
+
+.pkr{
+    margin-left: 1rem;
+}
+.return{
+    display: flex;
+    flex-direction: row;
+}
+.return h5{
+    margin-top: 0.2rem;
+}
+.track-order{
+    display:flex;
+}
+
+.track-order h5{
+    margin-top: 0.2rem;
+}
+.look-book{
+    display: flex;
+}
+.look-book h5{
+    margin-top: 0.2rem;
+}
+
+.SIGN-IN{
+    display: flex;
+}
+.SIGN-IN h5{
+    margin-top: 0.2rem;
+}
+.span{
+    font-size: 2.5rem;
+}
+
+.switch {
+    position:relative;
+    display: inline-block;
+    width:2.5rem;
+    height:1.5rem;
+}  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+} 
+.slider:before{
+    position: absolute;
+    top:1px;
+  content: "";
+  height: 1.4rem;
+  width: 1rem;
+ 
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+    background-color: #2196F3;
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  .slider.round {
+    border-radius: 34px;
+  }
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .switch-checkbox {
+    padding: 10px
+  }
+
+.gul-ahmed-image{
+    margin-top: 1rem;
+}
+.cart-icon{
+    margin-top: 1.7rem;
+    margin-left: 1.6rem;
+}
+.head-two{
+    width:100%;
+    display:grid;
+    grid-template-columns:20rem 0.9fr  0.3fr 2.8rem;
+    
+}
+.headtwo-right{
+    grid-column: 3/ 4;
+    margin-top: 1.7rem;
+    margin-left: 6rem;
+}
+.button-sale {
+    margin-left:5rem;
+}
+
+.button-sale button{
+ background-color: red;
+ color: white;
+ border: 1px solid red;
+ border-radius: 0.3rem;
+animation:3s ease-in-out infinite  blink;
+
+}
+ 
+@keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity:0;}
+    75% {opacity: 1;}
+    100% {opacity:0;}
+}
+.head-three{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.head-four{
+    display: flex;
+    margin-top: 2rem;
+}
+.home,.arrow,.men,.western,.casual-shirts,.smart-casuals,.navy-basic-smart{
+    margin-left: 0.5rem;
+}
+

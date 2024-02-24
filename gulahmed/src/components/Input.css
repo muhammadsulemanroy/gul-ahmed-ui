@@ -1,0 +1,114 @@
+.container{
+    height: 2.3rem;
+    width:30rem;
+    border-radius: 25px; 
+    background:grey;
+    text-align: center;
+    position: relative;
+   
+}
+
+
+.input-right{
+height: 2rem;
+width:23rem;
+border-radius: 0.4rem;
+width:100%;
+display: block;
+
+}
+.search-box{
+    height: 2.2rem;
+    position: absolute;
+    top:0;
+    right:0;
+    width: 3rem;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+.box {
+  opacity: 0;
+  position:absolute;
+  width: 100%;
+}
+.b1{
+  animation: animTextZero 15s infinite;
+}
+
+.b2{
+  animation: animText1 15s infinite;
+}
+
+.b3{
+  animation: animText2 15s infinite;
+}
+
+.b4{
+  animation: animText3 15s infinite;
+}
+
+.b5{
+  animation: animText4 15s infinite;
+}
+
+  @keyframes animTextzero {
+  0%{
+       opacity: 0;
+      
+       
+    }
+    50%{
+
+      opacity: 1;
+  
+      margin-bottom:5px;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+  @keyframes animText1 {
+    0%{
+      opacity: 0;
+    
+   }
+   50%{
+
+     opacity: 1;
+   }
+   100%{
+     opacity: 0;
+   }
+    }
+  
+    @keyframes animText2 {
+      40%{
+        opacity: 0;
+      
+     }
+     50%{
+       transform: translateY(-15px);
+       opacity: 1;
+     }
+     60%{
+       opacity: 0;
+     }
+      }
+    
+      @keyframes animText3 {
+        60%{
+          opacity: 0;
+        
+       }
+       70%{
+         transform: translateY(-15px);
+         opacity: 1;
+       }
+       80%{
+         opacity: 0;
+       }
+        }
+      
+      

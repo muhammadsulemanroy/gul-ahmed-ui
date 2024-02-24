@@ -1,0 +1,130 @@
+.section-whole *{
+    background-color: white ;
+ 
+}
+.section-whole {
+    border:1px solid #e8e7e7;
+    margin:0.5rem;
+    display: grid;
+     grid-template-columns: 2.5fr  2fr;
+
+}
+.left{
+    display: grid;
+    grid-template-columns: 3fr  1fr;
+    margin-top:1rem;
+}
+.left_2{
+    margin-left:10rem;
+}
+.left_2 img {
+    height:35rem;
+    width:23rem;
+ 
+}
+
+
+.left_1{
+    margin-left: 5rem;
+}
+.left_1 img {
+  margin-top: 1rem;
+}
+.img_wrap.active {
+   filter: brightness(50%);
+
+}
+.section-text-top *{
+  margin-top: 1rem;
+}
+.text-two{
+   color:#bbb;
+}
+.text-three{
+    margin-top:0.5rem;
+}
+.wish-button button {
+     margin-top: 1rem;
+     width:22rem;
+     height:2rem;
+     border-radius:0.4rem;
+     border: 1px solid #ddd;
+}
+.size-button button {
+    margin-top:4rem;
+    width:8rem;
+    height:1.8rem;
+    border: 1px dotted #3399CC;
+    color:#3399CC;
+    border-radius:0.4rem;
+}
+.share-button button {
+    margin-top:1rem;
+    border-radius:0.4rem;
+    width:12rem;
+    border-bottom: 1px solid silver;
+    border-left:0px;
+    border-top:0px;
+    border-right:0px;
+    height:1.7rem;
+    color:black;
+
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    width:30%;
+}
+
+.section-details-top{
+    margin-top:1rem;
+    margin:0.5rem;
+    border:1px solid #e8e7e7;
+    background-color: white;
+}
+.section-details-top *{
+    background-color: white;
+}
+.details-group{
+    margin-top: 2rem;
+    display: flex;
+    width:27%;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+hr{
+   margin: 1rem; 
+}
+.section-text-one{
+    margin:1rem;
+}
+ul{
+    margin-left: 2rem;
+}
+.section-note{
+    margin:2.5rem;
+}
+.tab-pane.fade{
+display: none;
+}
+.tab-pane.fade.show.active{
+    display: block;
+    margin-left: 2rem;
+}
+.nav-link.active{
+    color: #222;
+    font-weight: 700;
+}
+.color-change{
+    position: relative;
+  height: 3px;
+  border: none;
+  background-color: #ccc;
+}
+.color-change::before {
+    content: "";
+    position: absolute;
+    width: 7%;
+    height:3px;
+   background-color: black;
+  }
